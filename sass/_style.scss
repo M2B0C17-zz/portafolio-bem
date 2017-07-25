@@ -1,26 +1,51 @@
 /* Estilos MEnú */
+body{
+	background-color: $fondo_pagina;
+}
+
+.sinPadding{
+	padding: $no_padding;
+	margin: $no_padding;
+	height: 80px;
+}
+
+.img__icono{
+	margin: 5px 6px;
+	width: $size_img_mujers;
+	background-color: $fondo_color_mujers;
+	padding: $padding_mujers;
+	border: 4px solid white;
+	border-radius: $border_mujers;
+}
+
+.marginleft{
+	margin-left: $margin_left;
+	padding-top: 5px;
+}
+
 .a-menu{
 	display: inline-block;
-	text-align: center !important;
-	padding: 20px;
 	width: 100%;
 	background-color: $fondo;
+	text-align: center !important;
 }
 
 .a-menu__item{
 	display: inline-block;
 	font-size: 20px;
 	font-weight: 700;
-	padding: 15px;
 	color: white;
 }
 
 .a-menu__item__link{
 	color: $white;
+	text-decoration: $enlace_list;
+	padding-left: 50px;
+	font-weight: lighter;
 	&:hover{
-		text-decoration: none;
-		padding: 20px;
+		text-decoration: $enlace_list;
 		color: $hover;
+		font-weight: lighter;
 	}
 }
 
@@ -38,6 +63,7 @@
 		margin: 0;
 		padding: 5px;
 	}
+
 	&__desc{
 		line-height: 22px;
 	}

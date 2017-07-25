@@ -1,26 +1,47 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700");
 /* Estilos MEnú */
+body {
+  background-color: #1e3747; }
+
+.sinPadding {
+  padding: 0;
+  margin: 0;
+  height: 80px; }
+
+.img__icono {
+  margin: 5px 6px;
+  width: 30px;
+  background-color: #d5cac0;
+  padding: 10px;
+  border: 4px solid white;
+  border-radius: 100px; }
+
+.marginleft {
+  margin-left: 20px;
+  padding-top: 5px; }
+
 .a-menu {
   display: inline-block;
-  text-align: center !important;
-  padding: 20px;
   width: 100%;
-  background-color: #f68f54; }
+  background-color: #f6474d;
+  text-align: center !important; }
 
 .a-menu__item {
   display: inline-block;
   font-size: 20px;
   font-weight: 700;
-  padding: 15px;
   color: white; }
 
 .a-menu__item__link {
-  color: #fff; }
+  color: #fff;
+  text-decoration: none;
+  padding-left: 50px;
+  font-weight: lighter; }
   .a-menu__item__link:hover {
     text-decoration: none;
-    padding: 20px;
-    color: #ffc99d; }
+    color: #6b0e4f;
+    font-weight: lighter; }
 
 /* Estilos Seccion principal */
 .article {
@@ -50,7 +71,7 @@
 
 /* Footer */
 .pie {
-  background: #f68f54; }
+  background: #f6474d; }
 
 .pie__item--center {
   font-size: 16px;
