@@ -104,6 +104,10 @@ body {
     .redes__sociales__icono:hover {
       color: #109873; }
 
+.color__hr {
+  width: 50%;
+  text-align: center; }
+
 /* Footer */
 .pie {
   background: #f6474d; }
